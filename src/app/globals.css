@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-items {
+    @apply capitalize md:p-1 md:text-base text-xl font-medium hover:text-congressBlue transition-all duration-150;
+  }
+}
